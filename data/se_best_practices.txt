@@ -1,0 +1,30 @@
+Principles and Practices of Software Development
+Daniel Huttenlocher1,3Daniel Spoonhower2,3
+dph@cs.cornell.edu spoons@cs.cmu.edu
+1Computer Science Department and
+Johnson Graduate School of Management
+Cornell University
+Ithaca, NY 14853
+2Computer Science Department3Intelligent Markets, Inc.
+Carnegie-Mellon University San Francisco, CA 94103
+Pittsburgh, PA 15213
+Draft of August 26, 2002
+Abstract
+In this paper, we aim to provide a new perspective on the methods of software development. We ﬁnd
+most software development methodologies to be overly prescriptive; they focus primarily on what
+methods to use without adequate consideration of what problems are being addressed and without
+a comparison of diﬀerent methods that apply to the same problem. We maintain that software
+developers can be most eﬀective if they are provided both with a variety of methods from which
+to choose and with the understanding necessary to select the methods that are best suited to their
+project. To that end, we introduce a framework for describing the principles of software development,
+a vocabulary for characterizing and understanding the constraints under which software is being
+written.
+We present some principles of software developme nt, relating them to speciﬁc problems that occur
+in software projects and to practices that are used to address those problems. We observe that the
+practices of diﬀerent methodologies can be understood in terms of how they weigh the relative
+importance of the underlying principles. We illustrate how identifying such principles can help in
+selecting the most appropriate p ractices. We note that some of t he most signiﬁcant diﬀerences
+among methodologies arise when principles provide conﬂicting viewpoints. We then discuss how
+iterative or incremental software development practices can be used to minimize the risks that result
+from conﬂicting principles.
+DRAFT of August 26, 2002 2
