@@ -1,0 +1,13 @@
+farm-haystack
+farm-haystack[preprocessing]
+farm-haystack[inference]
+farm-haystack[weaviate]
+farm-haystack[elasticsearch]
+datasets>=2.6.1
+llama-cpp-python
+huggingface-hub
+ipykernel
+pypdf2
+torch --extra-index-url https://download.pytorch.org/whl/cu113
+poppler-utils
+gradio
